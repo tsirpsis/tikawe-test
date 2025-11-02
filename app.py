@@ -13,3 +13,7 @@ def page1():
 @app.route("/page2")
 def page2():
     return "Toinen sivu"
+
+@app.route("/page3")
+def page3():
+    return "Kolmas sivu"
